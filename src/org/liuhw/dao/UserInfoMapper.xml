@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.liuhw.dao.UserInfoMapper">
+    <!-- 根据手机号获取用户信息 -->
+  	<select id="getUserInfo" resultType="org.liuhw.entity.UserInfo">
+        select id,name from t_user
+    </select>
+    <!-- 保存用户基本信息 -->
+    <insert id="saveUserInfo" parameterType="org.liuhw.entity.UserInfo">
+    	insert into t_user(id,name) values (#{id},#{name})
+    </insert>
+</mapper>

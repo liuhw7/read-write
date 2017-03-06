@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE configuration  
+PUBLIC "-//ibatis.apache.org//DTD Config 3.0//EN"  
+"http://ibatis.apache.org/dtd/ibatis-3-config.dtd">  
+<configuration>  
+    <!-- 给持久层对象配置个别名，能方便调用 -->  
+    <!-- <typeAliases>  
+    	<typeAlias type="org.relax.dao.user.entity.UserInfo" alias="UserInfo"/>
+    	
+    	微信活动报名
+    	<typeAlias type="org.relax.dao.activity.entity.ActivityInfo" alias="ActivityInfo"/>
+    	
+    </typeAliases> -->
+    <!-- 接口映射文件的位置 --> 
+</configuration>
